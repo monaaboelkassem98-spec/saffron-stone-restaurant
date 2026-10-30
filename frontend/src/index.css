@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "DM Sans", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f7f7fc;
+  overflow-x: clip;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: #d6a36a;
+  color: #202633;
+}
+
+.customer-page h1,
+.customer-page h2,
+.customer-page h3 {
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+
+.customer-page p {
+  text-wrap: pretty;
+}
+
+.customer-page main article,
+.customer-page main figure,
+.customer-page main form > div > section {
+  outline: 1px solid transparent;
+  transition:
+    transform 280ms cubic-bezier(0.2, 0.75, 0.25, 1),
+    box-shadow 280ms ease,
+    outline-color 280ms ease,
+    background-color 200ms ease;
+}
+
+.customer-page main article img,
+.customer-page main a.group img {
+  transition: transform 650ms cubic-bezier(0.2, 0.75, 0.25, 1);
+}
+
+.customer-page main a[class~="bg-[#a94f0b]"],
+.customer-page main button[class~="bg-[#a94f0b]"],
+.customer-page main a[class~="border-white/25"] {
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease,
+    background-color 220ms ease,
+    color 220ms ease;
+}
+
+.customer-page :is(a[href], button):focus-visible {
+  outline: 2px solid #d6a36a;
+  outline-offset: 3px;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .customer-page main article:hover,
+  .customer-page main figure:hover,
+  .customer-page main form > div > section:hover {
+    transform: translateY(-4px);
+    outline-color: rgb(169 79 11 / 18%);
+    box-shadow: 0 18px 40px rgb(32 38 51 / 10%);
+  }
+
+  .customer-page main article:hover img,
+  .customer-page main a.group:hover img {
+    transform: scale(1.035);
+  }
+
+  .customer-page main a[class~="bg-[#a94f0b]"]:hover,
+  .customer-page main button[class~="bg-[#a94f0b]"]:not(:disabled):hover,
+  .customer-page main a[class~="border-white/25"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgb(169 79 11 / 22%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+html,
+body,
+#root,
+#root header,
+#root main,
+#root footer,
+#root article,
+#root aside,
+#root section,
+#root label,
+#root input,
+#root textarea,
+#root select {
+  transition:
+    background-color 200ms ease,
+    border-color 200ms ease,
+    color 200ms ease;
+}
+
+html.dark body {
+  background-color: #11151d;
+  color: #eeeae2;
+}
+
+html.dark .customer-page {
+  color: #eeeae2;
+}
+
+html.dark .customer-page main article,
+html.dark .customer-page main figure,
+html.dark .customer-page main form > div > section {
+  outline-color: transparent;
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  html.dark .customer-page main article:hover,
+  html.dark .customer-page main figure:hover,
+  html.dark .customer-page main form > div > section:hover {
+    outline-color: rgb(226 173 118 / 38%);
+    box-shadow:
+      0 0 0 1px rgb(226 173 118 / 12%),
+      0 16px 38px rgb(0 0 0 / 35%),
+      0 0 28px rgb(169 79 11 / 10%);
+  }
+
+  html.dark .customer-page main a[class~="bg-[#a94f0b]"]:hover,
+  html.dark .customer-page main button[class~="bg-[#a94f0b]"]:not(:disabled):hover,
+  html.dark .customer-page main a[class~="border-white/25"]:hover {
+    box-shadow:
+      0 0 0 1px rgb(232 180 125 / 28%),
+      0 10px 26px rgb(169 79 11 / 25%);
+  }
+}
+
+html.dark [class~="bg-[#f7f7fc]"],
+html.dark [class~="bg-[#f7f7fa]"] {
+  background-color: #11151d;
+}
+
+html.dark [class~="bg-white"],
+html.dark [class~="bg-[#fbfbfe]"] {
+  background-color: #1b212c;
+}
+
+html.dark [class~="bg-[#f0f1fc]"],
+html.dark [class~="bg-[#f3f4fc]"],
+html.dark [class~="bg-[#f0f1f6]"],
+html.dark [class~="bg-[#f1f2fc]"],
+html.dark [class~="bg-[#edf0fb]"],
+html.dark [class~="bg-[#edf4eb]"],
+html.dark [class~="bg-[#edf4ee]"],
+html.dark [class~="bg-[#f5ecf1]"],
+html.dark [class~="bg-[#fafafd]"],
+html.dark [class~="bg-[#fcfcfe]"],
+html.dark [class~="bg-[#e6e6ef]"],
+html.dark [class~="bg-[#e7e8f1]"],
+html.dark [class~="bg-[#e7e8f2]"],
+html.dark [class~="bg-[#e7e7ef]"],
+html.dark [class~="bg-[#e8e8ee]"],
+html.dark [class~="bg-[#e2e4f7]"],
+html.dark [class~="bg-[#d2d2da]"],
+html.dark [class~="bg-[#d4d4dc]"],
+html.dark [class~="bg-[#d8d8e2]"],
+html.dark [class~="bg-[#e1e2ec]"] {
+  background-color: #272e3a;
+}
+
+html.dark [class~="bg-white/70"],
+html.dark [class~="bg-white/90"] {
+  background-color: rgb(39 46 58 / 92%);
+}
+
+html.dark [class~="bg-[#fbf4ee]"],
+html.dark [class~="bg-[#fbede2]"],
+html.dark [class~="bg-[#f7efe5]"],
+html.dark [class~="bg-[#ead5c4]"] {
+  background-color: #3a3028;
+}
+
+html.dark [class~="text-[#202633]"],
+html.dark [class~="text-[#252a35]"],
+html.dark [class~="text-[#262a35]"],
+html.dark [class~="text-[#252b38]"],
+html.dark [class~="text-[#303342]"],
+html.dark [class~="text-[#313241]"],
+html.dark [class~="text-[#333746]"],
+html.dark [class~="text-[#343542]"],
+html.dark [class~="text-[#343744]"],
+html.dark [class~="text-[#353846]"],
+html.dark [class~="text-[#363845]"],
+html.dark [class~="text-[#383846]"],
+html.dark [class~="text-[#383a47]"],
+html.dark [class~="text-[#393a47]"],
+html.dark [class~="text-[#444957]"],
+html.dark [class~="text-[#555563]"],
+html.dark [class~="text-[#555665]"],
+html.dark [class~="text-[#555967]"],
+html.dark [class~="text-[#626573]"],
+html.dark [class~="text-[#666674]"],
+html.dark [class~="text-[#676a77]"],
+html.dark [class~="text-[#686a76]"],
+html.dark [class~="text-[#6d6d7b]"],
+html.dark [class~="text-[#737381]"],
+html.dark [class~="text-[#747583]"],
+html.dark [class~="text-[#777784]"],
+html.dark [class~="text-[#777785]"],
+html.dark [class~="text-[#777986]"],
+html.dark [class~="text-[#7b7b88]"],
+html.dark [class~="text-[#7d7f8a]"],
+html.dark [class~="text-[#858592]"],
+html.dark [class~="text-[#888995]"],
+html.dark [class~="text-[#898994]"],
+html.dark [class~="text-[#8c8c99]"],
+html.dark [class~="text-[#90919a]"],
+html.dark [class~="text-[#92929d]"],
+html.dark [class~="text-[#92929e]"],
+html.dark [class~="text-[#92939d]"],
+html.dark [class~="text-[#9696a0]"],
+html.dark [class~="text-[#9a9aa5]"],
+html.dark [class~="text-[#9b9ba5]"],
+html.dark [class~="text-[#a0a0aa]"] {
+  color: #c1c4ce;
+}
+
+html.dark [class~="text-[#46714b]"],
+html.dark [class~="text-[#5f8569]"],
+html.dark [class~="text-[#66866b]"] {
+  color: #a7c7a6;
+}
+
+html.dark [class~="text-[#6478a8]"],
+html.dark [class~="text-[#6578aa]"] {
+  color: #b0bee3;
+}
+
+html.dark [class~="text-[#7b5b40]"],
+html.dark [class~="text-[#7b8390]"],
+html.dark [class~="text-[#b46e3b]"],
+html.dark [class~="text-[#996b82]"] {
+  color: #d0ad91;
+}
+
+html.dark [class~="text-[#a94f0b]"],
+html.dark [class~="text-[#7e3907]"],
+html.dark [class~="text-[#925025]"],
+html.dark [class~="text-[#a66a2c]"] {
+  color: #e2ad76;
+}
+
+html.dark [class~="border-[#e4e5ef]"],
+html.dark [class~="border-[#e5e5ee]"],
+html.dark [class~="border-[#e6e6ec]"],
+html.dark [class~="border-[#e7e7ec]"],
+html.dark [class~="border-[#e7e7ef]"],
+html.dark [class~="border-[#e7e8f2]"],
+html.dark [class~="border-[#e8e7eb]"],
+html.dark [class~="border-[#e8e8ec]"],
+html.dark [class~="border-[#e8e8ed]"],
+html.dark [class~="border-[#e8e8f0]"],
+html.dark [class~="border-[#e5e6f0]"],
+html.dark [class~="border-[#e8e9f1]"],
+html.dark [class~="border-[#e9e9ee]"],
+html.dark [class~="border-[#ededf0]"],
+html.dark [class~="border-[#ededf2]"],
+html.dark [class~="border-[#ededf2]"],
+html.dark [class~="border-[#eeedf0]"],
+html.dark [class~="border-[#f0f0f3]"],
+html.dark [class~="border-[#dfe0ea]"],
+html.dark [class~="border-[#d9dae5]"],
+html.dark [class~="border-red-200"] {
+  border-color: #3a414e;
+}
+
+html.dark [class~="bg-red-50"] {
+  background-color: #382426;
+}
+
+html.dark [class~="text-red-900"],
+html.dark [class~="text-red-800"],
+html.dark [class~="text-red-700"] {
+  color: #efb8b8;
+}
+
+html.dark [class~="bg-amber-50"] {
+  background-color: #382f22;
+}
+
+html.dark [class~="text-amber-900"] {
+  color: #e8c994;
+}
+
+html.dark [class~="hover:bg-[#f0f1fc]"]:hover,
+html.dark [class~="hover:bg-[#e2e4f7]"]:hover {
+  background-color: #343b49;
+}
+
+html.dark .recharts-cartesian-grid line {
+  stroke: #363d4a;
+}
+
+html.dark .recharts-cartesian-axis-tick text {
+  fill: #b7bac5;
+}
+
+html.dark .recharts-default-tooltip {
+  background-color: #1b212c !important;
+  border-color: #414755 !important;
+  color: #eeeae2;
+}

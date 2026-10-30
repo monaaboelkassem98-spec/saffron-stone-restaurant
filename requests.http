@@ -1,0 +1,53 @@
+### VS Code REST Client examples. Start with `npm run dev`.
+@base = http://localhost:3001
+
+### Fetch all menu items
+GET {{base}}/menu
+
+### Filter menu by category
+GET {{base}}/menu?categoryId=cat-1
+
+### Fetch featured menu items
+GET {{base}}/menu?isFeatured=true
+
+### Sort items by price descending
+GET {{base}}/menu?_sort=-price
+
+### Paginated items (object with `data`)
+GET {{base}}/menu?_page=1&_per_page=8
+
+### Fetch cart
+GET {{base}}/cart
+
+### Update cart quantity
+PATCH {{base}}/cart/cart-001
+Content-Type: application/json
+
+{"quantity": 3}
+
+### Add an item to cart
+POST {{base}}/cart
+Content-Type: application/json
+
+{"menuItemId":"food-001","quantity":1,"note":"","addedAt":"2026-10-28T11:00:00Z"}
+
+### Fetch orders sorted newest first
+GET {{base}}/orders?_sort=-createdAt
+
+### Fetch pending orders
+GET {{base}}/orders?status=pending
+
+### Change order status
+PATCH {{base}}/orders/order-024
+Content-Type: application/json
+
+{"status":"preparing"}
+
+### Fetch restaurant details
+GET {{base}}/restaurant
+
+### Create a menu item
+POST {{base}}/menu
+Content-Type: application/json
+
+{"name":"New Test Dish","description":"Demo food","price":120,"categoryId":"cat-1","imageUrl":"https://images.unsplash.com/photo-1513104890138-7c749659a591?w=900","available":true,"isFeatured":false,"prepTimeMinutes":15,"rating":0,"createdAt":"2026-10-28T11:00:00Z"}

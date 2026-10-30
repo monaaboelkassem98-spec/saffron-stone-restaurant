@@ -1,0 +1,1377 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Pizza",
+      "slug": "pizza",
+      "description": "Hand-tossed pizzas, fresh from the oven",
+      "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
+      "sortOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": "cat-2",
+      "name": "Burgers",
+      "slug": "burgers",
+      "description": "Juicy burgers and crispy sides",
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+      "sortOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": "cat-3",
+      "name": "Pasta",
+      "slug": "pasta",
+      "description": "Comforting Italian-inspired bowls",
+      "imageUrl": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=80",
+      "sortOrder": 3,
+      "isActive": true
+    },
+    {
+      "id": "cat-4",
+      "name": "Salads",
+      "slug": "salads",
+      "description": "Fresh, colorful, feel-good choices",
+      "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80",
+      "sortOrder": 4,
+      "isActive": true
+    },
+    {
+      "id": "cat-5",
+      "name": "Desserts",
+      "slug": "desserts",
+      "description": "Sweet finishes to any meal",
+      "imageUrl": "https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80",
+      "sortOrder": 5,
+      "isActive": true
+    },
+    {
+      "id": "cat-6",
+      "name": "Drinks",
+      "slug": "drinks",
+      "description": "Fresh drinks and coffee favorites",
+      "imageUrl": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+      "sortOrder": 6,
+      "isActive": true
+    }
+  ],
+  "menu": [
+    {
+      "id": "food-001",
+      "name": "Margherita Pizza",
+      "description": "Classic mozzarella, basil and tomato sauce",
+      "price": 195,
+      "categoryId": "cat-1",
+      "imageUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": true,
+      "prepTimeMinutes": 20,
+      "rating": 4.8,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-002",
+      "name": "Pepperoni Pizza",
+      "description": "Pepperoni, mozzarella and signature tomato sauce",
+      "price": 245,
+      "categoryId": "cat-1",
+      "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": true,
+      "prepTimeMinutes": 24,
+      "rating": 4.9,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-003",
+      "name": "BBQ Chicken Pizza",
+      "description": "Grilled chicken, BBQ sauce and red onions",
+      "price": 265,
+      "categoryId": "cat-1",
+      "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 25,
+      "rating": 4.7,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-004",
+      "name": "Four Cheese Pizza",
+      "description": "A rich mix of mozzarella, cheddar and cheeses",
+      "price": 280,
+      "categoryId": "cat-1",
+      "imageUrl": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 23,
+      "rating": 4.6,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-005",
+      "name": "Classic Cheeseburger",
+      "description": "Beef patty, cheddar, lettuce and house sauce",
+      "price": 175,
+      "categoryId": "cat-2",
+      "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": true,
+      "prepTimeMinutes": 16,
+      "rating": 4.9,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-006",
+      "name": "Double Smash Burger",
+      "description": "Two smashed beef patties and melted cheese",
+      "price": 240,
+      "categoryId": "cat-2",
+      "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": true,
+      "prepTimeMinutes": 19,
+      "rating": 4.8,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-007",
+      "name": "Crispy Chicken Burger",
+      "description": "Crispy chicken, pickles and spicy mayo",
+      "price": 190,
+      "categoryId": "cat-2",
+      "imageUrl": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 18,
+      "rating": 4.6,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-008",
+      "name": "Mushroom Swiss Burger",
+      "description": "Grilled mushrooms, Swiss-style cheese and beef",
+      "price": 220,
+      "categoryId": "cat-2",
+      "imageUrl": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 20,
+      "rating": 4.7,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-009",
+      "name": "Chicken Alfredo",
+      "description": "Creamy Alfredo sauce and grilled chicken",
+      "price": 220,
+      "categoryId": "cat-3",
+      "imageUrl": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": true,
+      "prepTimeMinutes": 22,
+      "rating": 4.8,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-010",
+      "name": "Spaghetti Bolognese",
+      "description": "Slow-cooked beef and tomato ragù",
+      "price": 205,
+      "categoryId": "cat-3",
+      "imageUrl": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 20,
+      "rating": 4.7,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-011",
+      "name": "Penne Arrabbiata",
+      "description": "Penne in a spicy garlic tomato sauce",
+      "price": 175,
+      "categoryId": "cat-3",
+      "imageUrl": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 18,
+      "rating": 4.5,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-012",
+      "name": "Pesto Pasta",
+      "description": "Basil pesto, parmesan and toasted nuts",
+      "price": 210,
+      "categoryId": "cat-3",
+      "imageUrl": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 20,
+      "rating": 4.6,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-013",
+      "name": "Caesar Salad",
+      "description": "Romaine lettuce, parmesan and croutons",
+      "price": 140,
+      "categoryId": "cat-4",
+      "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": true,
+      "prepTimeMinutes": 10,
+      "rating": 4.7,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-014",
+      "name": "Greek Salad",
+      "description": "Feta, cucumber, tomatoes and olives",
+      "price": 135,
+      "categoryId": "cat-4",
+      "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 10,
+      "rating": 4.6,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-015",
+      "name": "Grilled Chicken Salad",
+      "description": "Tender chicken with garden vegetables",
+      "price": 175,
+      "categoryId": "cat-4",
+      "imageUrl": "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 13,
+      "rating": 4.8,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-016",
+      "name": "Quinoa Power Bowl",
+      "description": "Quinoa, greens, avocado and fresh dressing",
+      "price": 185,
+      "categoryId": "cat-4",
+      "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 12,
+      "rating": 4.5,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-017",
+      "name": "Chocolate Brownie",
+      "description": "Warm fudgy brownie with chocolate drizzle",
+      "price": 110,
+      "categoryId": "cat-5",
+      "imageUrl": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": true,
+      "prepTimeMinutes": 8,
+      "rating": 4.8,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-018",
+      "name": "New York Cheesecake",
+      "description": "Creamy cheesecake with a biscuit crust",
+      "price": 130,
+      "categoryId": "cat-5",
+      "imageUrl": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 7,
+      "rating": 4.7,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-019",
+      "name": "Tiramisu Cup",
+      "description": "Espresso-soaked layers with mascarpone cream",
+      "price": 125,
+      "categoryId": "cat-5",
+      "imageUrl": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 6,
+      "rating": 4.6,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-020",
+      "name": "Ice Cream Sundae",
+      "description": "Vanilla ice cream, chocolate sauce and nuts",
+      "price": 95,
+      "categoryId": "cat-5",
+      "imageUrl": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=900&q=80",
+      "available": false,
+      "isFeatured": false,
+      "prepTimeMinutes": 5,
+      "rating": 4.7,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-021",
+      "name": "Fresh Lemon Mint",
+      "description": "Refreshing lemon juice blended with mint",
+      "price": 75,
+      "categoryId": "cat-6",
+      "imageUrl": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": true,
+      "prepTimeMinutes": 5,
+      "rating": 4.9,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-022",
+      "name": "Iced Latte",
+      "description": "Espresso, milk and ice",
+      "price": 85,
+      "categoryId": "cat-6",
+      "imageUrl": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 5,
+      "rating": 4.8,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-023",
+      "name": "Strawberry Smoothie",
+      "description": "Creamy strawberry and yogurt smoothie",
+      "price": 95,
+      "categoryId": "cat-6",
+      "imageUrl": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 6,
+      "rating": 4.7,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "food-024",
+      "name": "Sparkling Lemonade",
+      "description": "Fizzy lemonade served over ice",
+      "price": 70,
+      "categoryId": "cat-6",
+      "imageUrl": "https://images.unsplash.com/photo-1513558161293-cdaf765edfd4?auto=format&fit=crop&w=900&q=80",
+      "available": true,
+      "isFeatured": false,
+      "prepTimeMinutes": 4,
+      "rating": 4.5,
+      "createdAt": "2026-09-15T11:00:00Z"
+    }
+  ],
+  "cart": [
+    {
+      "menuItemId": "food-005",
+      "quantity": 2,
+      "note": "",
+      "addedAt": "2026-10-28T19:30:23.579Z",
+      "id": "ZxFP8R_sSEA"
+    },
+    {
+      "menuItemId": "food-002",
+      "quantity": 6,
+      "note": "",
+      "addedAt": "2026-10-28T19:30:24.899Z",
+      "id": "FRzu9f5ZCjM"
+    },
+    {
+      "menuItemId": "food-001",
+      "quantity": 1,
+      "note": "",
+      "addedAt": "2026-10-28T19:30:25.891Z",
+      "id": "M3UfbqpWplg"
+    },
+    {
+      "menuItemId": "food-006",
+      "quantity": 1,
+      "note": "",
+      "addedAt": "2026-10-28T19:30:27.395Z",
+      "id": "I8jASWnZ9IA"
+    },
+    {
+      "menuItemId": "food-021",
+      "quantity": 3,
+      "note": "",
+      "addedAt": "2026-10-29T18:02:36.454Z",
+      "id": "ksMnskk7oSQ"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-001",
+      "orderNumber": "ORD-2026-0001",
+      "customerId": "customer-002",
+      "customerName": "Mariam Adel",
+      "customerPhone": "01000000002",
+      "items": [
+        {
+          "menuItemId": "food-024",
+          "name": "Sparkling Lemonade",
+          "quantity": 1,
+          "unitPrice": 70
+        },
+        {
+          "menuItemId": "food-009",
+          "name": "Chicken Alfredo",
+          "quantity": 1,
+          "unitPrice": 220
+        },
+        {
+          "menuItemId": "food-010",
+          "name": "Spaghetti Bolognese",
+          "quantity": 1,
+          "unitPrice": 205
+        }
+      ],
+      "orderType": "pickup",
+      "deliveryAddress": "",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 495,
+      "deliveryFee": 0,
+      "total": 495,
+      "notes": "",
+      "createdAt": "2026-10-01T12:07:00Z"
+    },
+    {
+      "id": "order-002",
+      "orderNumber": "ORD-2026-0002",
+      "customerId": "customer-005",
+      "customerName": "Ahmed Fathy",
+      "customerPhone": "01000000005",
+      "items": [
+        {
+          "menuItemId": "food-018",
+          "name": "New York Cheesecake",
+          "quantity": 1,
+          "unitPrice": 130
+        },
+        {
+          "menuItemId": "food-011",
+          "name": "Penne Arrabbiata",
+          "quantity": 1,
+          "unitPrice": 175
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "12 Maadi Road",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 305,
+      "deliveryFee": 30,
+      "total": 335,
+      "notes": "",
+      "createdAt": "2026-10-02T13:14:00Z"
+    },
+    {
+      "id": "order-003",
+      "orderNumber": "ORD-2026-0003",
+      "customerId": "customer-008",
+      "customerName": "Salma Ibrahim",
+      "customerPhone": "01000000008",
+      "items": [
+        {
+          "menuItemId": "food-006",
+          "name": "Double Smash Burger",
+          "quantity": 1,
+          "unitPrice": 240
+        },
+        {
+          "menuItemId": "food-008",
+          "name": "Mushroom Swiss Burger",
+          "quantity": 2,
+          "unitPrice": 220
+        },
+        {
+          "menuItemId": "food-016",
+          "name": "Quinoa Power Bowl",
+          "quantity": 2,
+          "unitPrice": 185
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "3 Nasr City Street",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 1050,
+      "deliveryFee": 30,
+      "total": 1080,
+      "notes": "",
+      "createdAt": "2026-10-04T14:21:00Z"
+    },
+    {
+      "id": "order-004",
+      "orderNumber": "ORD-2026-0004",
+      "customerId": "customer-001",
+      "customerName": "Omar Hassan",
+      "customerPhone": "01000000001",
+      "items": [
+        {
+          "menuItemId": "food-021",
+          "name": "Fresh Lemon Mint",
+          "quantity": 1,
+          "unitPrice": 75
+        }
+      ],
+      "orderType": "pickup",
+      "deliveryAddress": "",
+      "status": "completed",
+      "paymentMethod": "card",
+      "paymentStatus": "paid",
+      "subtotal": 75,
+      "deliveryFee": 0,
+      "total": 75,
+      "notes": "",
+      "createdAt": "2026-10-05T15:28:00Z"
+    },
+    {
+      "id": "order-005",
+      "orderNumber": "ORD-2026-0005",
+      "customerId": "customer-004",
+      "customerName": "Nour Ahmed",
+      "customerPhone": "01000000004",
+      "items": [
+        {
+          "menuItemId": "food-002",
+          "name": "Pepperoni Pizza",
+          "quantity": 1,
+          "unitPrice": 245
+        },
+        {
+          "menuItemId": "food-023",
+          "name": "Strawberry Smoothie",
+          "quantity": 1,
+          "unitPrice": 95
+        },
+        {
+          "menuItemId": "food-015",
+          "name": "Grilled Chicken Salad",
+          "quantity": 2,
+          "unitPrice": 175
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "4 Zamalek Avenue",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 690,
+      "deliveryFee": 30,
+      "total": 720,
+      "notes": "",
+      "createdAt": "2026-10-07T16:35:00Z"
+    },
+    {
+      "id": "order-006",
+      "orderNumber": "ORD-2026-0006",
+      "customerId": "customer-007",
+      "customerName": "Karim Samir",
+      "customerPhone": "01000000007",
+      "items": [
+        {
+          "menuItemId": "food-009",
+          "name": "Chicken Alfredo",
+          "quantity": 1,
+          "unitPrice": 220
+        },
+        {
+          "menuItemId": "food-005",
+          "name": "Classic Cheeseburger",
+          "quantity": 2,
+          "unitPrice": 175
+        },
+        {
+          "menuItemId": "food-021",
+          "name": "Fresh Lemon Mint",
+          "quantity": 2,
+          "unitPrice": 75
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "18 Mohandessin Street",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 720,
+      "deliveryFee": 30,
+      "total": 750,
+      "notes": "",
+      "createdAt": "2026-10-08T17:42:00Z"
+    },
+    {
+      "id": "order-007",
+      "orderNumber": "ORD-2026-0007",
+      "customerId": "customer-010",
+      "customerName": "Ali Nasser",
+      "customerPhone": "01000000010",
+      "items": [
+        {
+          "menuItemId": "food-024",
+          "name": "Sparkling Lemonade",
+          "quantity": 1,
+          "unitPrice": 70
+        },
+        {
+          "menuItemId": "food-017",
+          "name": "Chocolate Brownie",
+          "quantity": 1,
+          "unitPrice": 110
+        }
+      ],
+      "orderType": "pickup",
+      "deliveryAddress": "",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 180,
+      "deliveryFee": 0,
+      "total": 180,
+      "notes": "No onions, please",
+      "createdAt": "2026-10-09T18:49:00Z"
+    },
+    {
+      "id": "order-008",
+      "orderNumber": "ORD-2026-0008",
+      "customerId": "customer-003",
+      "customerName": "Youssef Ali",
+      "customerPhone": "01000000003",
+      "items": [
+        {
+          "menuItemId": "food-010",
+          "name": "Spaghetti Bolognese",
+          "quantity": 2,
+          "unitPrice": 205
+        },
+        {
+          "menuItemId": "food-002",
+          "name": "Pepperoni Pizza",
+          "quantity": 1,
+          "unitPrice": 245
+        },
+        {
+          "menuItemId": "food-023",
+          "name": "Strawberry Smoothie",
+          "quantity": 1,
+          "unitPrice": 95
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "22 Garden City Street",
+      "status": "completed",
+      "paymentMethod": "card",
+      "paymentStatus": "paid",
+      "subtotal": 750,
+      "deliveryFee": 30,
+      "total": 780,
+      "notes": "",
+      "createdAt": "2026-10-10T19:56:00Z"
+    },
+    {
+      "id": "order-009",
+      "orderNumber": "ORD-2026-0009",
+      "customerId": "customer-006",
+      "customerName": "Farida Mahmoud",
+      "customerPhone": "01000000006",
+      "items": [
+        {
+          "menuItemId": "food-024",
+          "name": "Sparkling Lemonade",
+          "quantity": 2,
+          "unitPrice": 70
+        },
+        {
+          "menuItemId": "food-005",
+          "name": "Classic Cheeseburger",
+          "quantity": 1,
+          "unitPrice": 175
+        },
+        {
+          "menuItemId": "food-009",
+          "name": "Chicken Alfredo",
+          "quantity": 1,
+          "unitPrice": 220
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "6 New Cairo Street",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 535,
+      "deliveryFee": 30,
+      "total": 565,
+      "notes": "",
+      "createdAt": "2026-10-12T20:03:00Z"
+    },
+    {
+      "id": "order-010",
+      "orderNumber": "ORD-2026-0010",
+      "customerId": "customer-009",
+      "customerName": "Hana Mostafa",
+      "customerPhone": "01000000009",
+      "items": [
+        {
+          "menuItemId": "food-015",
+          "name": "Grilled Chicken Salad",
+          "quantity": 1,
+          "unitPrice": 175
+        }
+      ],
+      "orderType": "pickup",
+      "deliveryAddress": "",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 175,
+      "deliveryFee": 0,
+      "total": 175,
+      "notes": "",
+      "createdAt": "2026-10-13T11:10:00Z"
+    },
+    {
+      "id": "order-011",
+      "orderNumber": "ORD-2026-0011",
+      "customerId": "customer-002",
+      "customerName": "Mariam Adel",
+      "customerPhone": "01000000002",
+      "items": [
+        {
+          "menuItemId": "food-019",
+          "name": "Tiramisu Cup",
+          "quantity": 1,
+          "unitPrice": 125
+        },
+        {
+          "menuItemId": "food-014",
+          "name": "Greek Salad",
+          "quantity": 1,
+          "unitPrice": 135
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "8 Tahrir Square, Dokki",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 260,
+      "deliveryFee": 30,
+      "total": 290,
+      "notes": "",
+      "createdAt": "2026-10-14T12:17:00Z"
+    },
+    {
+      "id": "order-012",
+      "orderNumber": "ORD-2026-0012",
+      "customerId": "customer-005",
+      "customerName": "Ahmed Fathy",
+      "customerPhone": "01000000005",
+      "items": [
+        {
+          "menuItemId": "food-015",
+          "name": "Grilled Chicken Salad",
+          "quantity": 1,
+          "unitPrice": 175
+        },
+        {
+          "menuItemId": "food-012",
+          "name": "Pesto Pasta",
+          "quantity": 1,
+          "unitPrice": 210
+        },
+        {
+          "menuItemId": "food-001",
+          "name": "Margherita Pizza",
+          "quantity": 1,
+          "unitPrice": 195
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "12 Maadi Road",
+      "status": "completed",
+      "paymentMethod": "card",
+      "paymentStatus": "paid",
+      "subtotal": 580,
+      "deliveryFee": 30,
+      "total": 610,
+      "notes": "",
+      "createdAt": "2026-10-15T13:24:00Z"
+    },
+    {
+      "id": "order-013",
+      "orderNumber": "ORD-2026-0013",
+      "customerId": "customer-008",
+      "customerName": "Salma Ibrahim",
+      "customerPhone": "01000000008",
+      "items": [
+        {
+          "menuItemId": "food-016",
+          "name": "Quinoa Power Bowl",
+          "quantity": 2,
+          "unitPrice": 185
+        },
+        {
+          "menuItemId": "food-012",
+          "name": "Pesto Pasta",
+          "quantity": 1,
+          "unitPrice": 210
+        }
+      ],
+      "orderType": "pickup",
+      "deliveryAddress": "",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 580,
+      "deliveryFee": 0,
+      "total": 580,
+      "notes": "",
+      "createdAt": "2026-10-16T14:31:00Z"
+    },
+    {
+      "id": "order-014",
+      "orderNumber": "ORD-2026-0014",
+      "customerId": "customer-001",
+      "customerName": "Omar Hassan",
+      "customerPhone": "01000000001",
+      "items": [
+        {
+          "menuItemId": "food-006",
+          "name": "Double Smash Burger",
+          "quantity": 2,
+          "unitPrice": 240
+        },
+        {
+          "menuItemId": "food-007",
+          "name": "Crispy Chicken Burger",
+          "quantity": 1,
+          "unitPrice": 190
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "15 Nile Street, Dokki",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 670,
+      "deliveryFee": 30,
+      "total": 700,
+      "notes": "No onions, please",
+      "createdAt": "2026-10-18T15:38:00Z"
+    },
+    {
+      "id": "order-015",
+      "orderNumber": "ORD-2026-0015",
+      "customerId": "customer-004",
+      "customerName": "Nour Ahmed",
+      "customerPhone": "01000000004",
+      "items": [
+        {
+          "menuItemId": "food-011",
+          "name": "Penne Arrabbiata",
+          "quantity": 1,
+          "unitPrice": 175
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "4 Zamalek Avenue",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 175,
+      "deliveryFee": 30,
+      "total": 205,
+      "notes": "",
+      "createdAt": "2026-10-19T16:45:00Z"
+    },
+    {
+      "id": "order-016",
+      "orderNumber": "ORD-2026-0016",
+      "customerId": "customer-007",
+      "customerName": "Karim Samir",
+      "customerPhone": "01000000007",
+      "items": [
+        {
+          "menuItemId": "food-013",
+          "name": "Caesar Salad",
+          "quantity": 1,
+          "unitPrice": 140
+        }
+      ],
+      "orderType": "pickup",
+      "deliveryAddress": "",
+      "status": "cancelled",
+      "paymentMethod": "card",
+      "paymentStatus": "unpaid",
+      "subtotal": 140,
+      "deliveryFee": 0,
+      "total": 140,
+      "notes": "",
+      "createdAt": "2026-10-20T17:52:00Z"
+    },
+    {
+      "id": "order-017",
+      "orderNumber": "ORD-2026-0017",
+      "customerId": "customer-010",
+      "customerName": "Ali Nasser",
+      "customerPhone": "01000000010",
+      "items": [
+        {
+          "menuItemId": "food-010",
+          "name": "Spaghetti Bolognese",
+          "quantity": 1,
+          "unitPrice": 205
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "9 October Street",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 205,
+      "deliveryFee": 30,
+      "total": 235,
+      "notes": "",
+      "createdAt": "2026-10-21T18:59:00Z"
+    },
+    {
+      "id": "order-018",
+      "orderNumber": "ORD-2026-0018",
+      "customerId": "customer-003",
+      "customerName": "Youssef Ali",
+      "customerPhone": "01000000003",
+      "items": [
+        {
+          "menuItemId": "food-010",
+          "name": "Spaghetti Bolognese",
+          "quantity": 1,
+          "unitPrice": 205
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "22 Garden City Street",
+      "status": "completed",
+      "paymentMethod": "cash",
+      "paymentStatus": "paid",
+      "subtotal": 205,
+      "deliveryFee": 30,
+      "total": 235,
+      "notes": "",
+      "createdAt": "2026-10-22T19:06:00Z"
+    },
+    {
+      "id": "order-019",
+      "orderNumber": "ORD-2026-0019",
+      "customerId": "customer-006",
+      "customerName": "Farida Mahmoud",
+      "customerPhone": "01000000006",
+      "items": [
+        {
+          "menuItemId": "food-010",
+          "name": "Spaghetti Bolognese",
+          "quantity": 2,
+          "unitPrice": 205
+        },
+        {
+          "menuItemId": "food-017",
+          "name": "Chocolate Brownie",
+          "quantity": 1,
+          "unitPrice": 110
+        },
+        {
+          "menuItemId": "food-004",
+          "name": "Four Cheese Pizza",
+          "quantity": 1,
+          "unitPrice": 280
+        }
+      ],
+      "orderType": "pickup",
+      "deliveryAddress": "",
+      "status": "preparing",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "subtotal": 800,
+      "deliveryFee": 0,
+      "total": 800,
+      "notes": "",
+      "createdAt": "2026-10-23T20:13:00Z"
+    },
+    {
+      "id": "order-020",
+      "orderNumber": "ORD-2026-0020",
+      "customerId": "customer-009",
+      "customerName": "Hana Mostafa",
+      "customerPhone": "01000000009",
+      "items": [
+        {
+          "menuItemId": "food-016",
+          "name": "Quinoa Power Bowl",
+          "quantity": 2,
+          "unitPrice": 185
+        },
+        {
+          "menuItemId": "food-018",
+          "name": "New York Cheesecake",
+          "quantity": 2,
+          "unitPrice": 130
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "7 Heliopolis Street",
+      "status": "ready",
+      "paymentMethod": "card",
+      "paymentStatus": "unpaid",
+      "subtotal": 630,
+      "deliveryFee": 30,
+      "total": 660,
+      "notes": "",
+      "createdAt": "2026-10-24T11:20:00Z"
+    },
+    {
+      "id": "order-021",
+      "orderNumber": "ORD-2026-0021",
+      "customerId": "customer-002",
+      "customerName": "Mariam Adel",
+      "customerPhone": "01000000002",
+      "items": [
+        {
+          "menuItemId": "food-001",
+          "name": "Margherita Pizza",
+          "quantity": 2,
+          "unitPrice": 195
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "8 Tahrir Square, Dokki",
+      "status": "pending",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "subtotal": 390,
+      "deliveryFee": 30,
+      "total": 420,
+      "notes": "No onions, please",
+      "createdAt": "2026-10-25T12:27:00Z"
+    },
+    {
+      "id": "order-022",
+      "orderNumber": "ORD-2026-0022",
+      "customerId": "customer-005",
+      "customerName": "Ahmed Fathy",
+      "customerPhone": "01000000005",
+      "items": [
+        {
+          "menuItemId": "food-012",
+          "name": "Pesto Pasta",
+          "quantity": 1,
+          "unitPrice": 210
+        }
+      ],
+      "orderType": "pickup",
+      "deliveryAddress": "",
+      "status": "preparing",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "subtotal": 210,
+      "deliveryFee": 0,
+      "total": 210,
+      "notes": "",
+      "createdAt": "2026-10-26T13:34:00Z"
+    },
+    {
+      "id": "order-023",
+      "orderNumber": "ORD-2026-0023",
+      "customerId": "customer-008",
+      "customerName": "Salma Ibrahim",
+      "customerPhone": "01000000008",
+      "items": [
+        {
+          "menuItemId": "food-024",
+          "name": "Sparkling Lemonade",
+          "quantity": 1,
+          "unitPrice": 70
+        },
+        {
+          "menuItemId": "food-021",
+          "name": "Fresh Lemon Mint",
+          "quantity": 1,
+          "unitPrice": 75
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "3 Nasr City Street",
+      "status": "pending",
+      "paymentMethod": "cash",
+      "paymentStatus": "unpaid",
+      "subtotal": 145,
+      "deliveryFee": 30,
+      "total": 175,
+      "notes": "",
+      "createdAt": "2026-10-27T14:41:00Z"
+    },
+    {
+      "id": "order-024",
+      "orderNumber": "ORD-2026-0024",
+      "customerId": "customer-001",
+      "customerName": "Omar Hassan",
+      "customerPhone": "01000000001",
+      "items": [
+        {
+          "menuItemId": "food-014",
+          "name": "Greek Salad",
+          "quantity": 1,
+          "unitPrice": 135
+        },
+        {
+          "menuItemId": "food-015",
+          "name": "Grilled Chicken Salad",
+          "quantity": 1,
+          "unitPrice": 175
+        },
+        {
+          "menuItemId": "food-001",
+          "name": "Margherita Pizza",
+          "quantity": 2,
+          "unitPrice": 195
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "15 Nile Street, Dokki",
+      "status": "pending",
+      "paymentMethod": "card",
+      "paymentStatus": "unpaid",
+      "subtotal": 700,
+      "deliveryFee": 30,
+      "total": 730,
+      "notes": "",
+      "createdAt": "2026-10-28T15:48:00Z"
+    },
+    {
+      "orderNumber": "ORD-1793215798587",
+      "customerId": "HYwrOMqq6-I",
+      "customerName": "moka",
+      "customerPhone": "010525459598",
+      "items": [
+        {
+          "menuItemId": "food-002",
+          "name": "Pepperoni Pizza",
+          "quantity": 2,
+          "unitPrice": 245
+        },
+        {
+          "menuItemId": "food-005",
+          "name": "Classic Cheeseburger",
+          "quantity": 3,
+          "unitPrice": 175
+        },
+        {
+          "menuItemId": "food-018",
+          "name": "New York Cheesecake",
+          "quantity": 3,
+          "unitPrice": 130
+        },
+        {
+          "menuItemId": "food-009",
+          "name": "Chicken Alfredo",
+          "quantity": 1,
+          "unitPrice": 220
+        }
+      ],
+      "orderType": "delivery",
+      "deliveryAddress": "fyfuklut;l, lfuyfyfifi",
+      "status": "pending",
+      "paymentMethod": "card",
+      "paymentStatus": "unpaid",
+      "subtotal": 1625,
+      "deliveryFee": 30,
+      "total": 1655,
+      "notes": "oo8g98t9 · Evening Grand Dinner · Demo payment selection; no payment was processed",
+      "createdAt": "2026-10-28T19:29:58.587Z",
+      "id": "CCXEW5Ms0Q0"
+    }
+  ],
+  "customers": [
+    {
+      "id": "customer-001",
+      "fullName": "Omar Hassan",
+      "email": "omar.hassan@example.com",
+      "phone": "01000000001",
+      "address": "15 Nile Street, Dokki",
+      "createdAt": "2026-09-09T10:30:00Z"
+    },
+    {
+      "id": "customer-002",
+      "fullName": "Mariam Adel",
+      "email": "mariam.adel@example.com",
+      "phone": "01000000002",
+      "address": "8 Tahrir Square, Dokki",
+      "createdAt": "2026-09-10T10:30:00Z"
+    },
+    {
+      "id": "customer-003",
+      "fullName": "Youssef Ali",
+      "email": "youssef.ali@example.com",
+      "phone": "01000000003",
+      "address": "22 Garden City Street",
+      "createdAt": "2026-09-11T10:30:00Z"
+    },
+    {
+      "id": "customer-004",
+      "fullName": "Nour Ahmed",
+      "email": "nour.ahmed@example.com",
+      "phone": "01000000004",
+      "address": "4 Zamalek Avenue",
+      "createdAt": "2026-09-12T10:30:00Z"
+    },
+    {
+      "id": "customer-005",
+      "fullName": "Ahmed Fathy",
+      "email": "ahmed.fathy@example.com",
+      "phone": "01000000005",
+      "address": "12 Maadi Road",
+      "createdAt": "2026-09-13T10:30:00Z"
+    },
+    {
+      "id": "customer-006",
+      "fullName": "Farida Mahmoud",
+      "email": "farida.mahmoud@example.com",
+      "phone": "01000000006",
+      "address": "6 New Cairo Street",
+      "createdAt": "2026-09-14T10:30:00Z"
+    },
+    {
+      "id": "customer-007",
+      "fullName": "Karim Samir",
+      "email": "karim.samir@example.com",
+      "phone": "01000000007",
+      "address": "18 Mohandessin Street",
+      "createdAt": "2026-09-15T10:30:00Z"
+    },
+    {
+      "id": "customer-008",
+      "fullName": "Salma Ibrahim",
+      "email": "salma.ibrahim@example.com",
+      "phone": "01000000008",
+      "address": "3 Nasr City Street",
+      "createdAt": "2026-09-16T10:30:00Z"
+    },
+    {
+      "id": "customer-009",
+      "fullName": "Hana Mostafa",
+      "email": "hana.mostafa@example.com",
+      "phone": "01000000009",
+      "address": "7 Heliopolis Street",
+      "createdAt": "2026-09-17T10:30:00Z"
+    },
+    {
+      "id": "customer-010",
+      "fullName": "Ali Nasser",
+      "email": "ali.nasser@example.com",
+      "phone": "01000000010",
+      "address": "9 October Street",
+      "createdAt": "2026-09-18T10:30:00Z"
+    },
+    {
+      "fullName": "moka",
+      "email": "ydytdyf@gmail.com",
+      "phone": "010525459598",
+      "address": "fyfuklut;l",
+      "createdAt": "2026-10-28T19:29:58.565Z",
+      "id": "HYwrOMqq6-I"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review-001",
+      "menuItemId": "food-002",
+      "customerName": "Omar Hassan",
+      "rating": 5,
+      "comment": "Delicious and fresh!",
+      "createdAt": "2026-10-15T17:00:00Z"
+    },
+    {
+      "id": "review-002",
+      "menuItemId": "food-005",
+      "customerName": "Mariam Adel",
+      "rating": 4,
+      "comment": "Great food, quick service.",
+      "createdAt": "2026-10-16T17:00:00Z"
+    },
+    {
+      "id": "review-003",
+      "menuItemId": "food-009",
+      "customerName": "Youssef Ali",
+      "rating": 5,
+      "comment": "Would definitely order again.",
+      "createdAt": "2026-10-17T17:00:00Z"
+    },
+    {
+      "id": "review-004",
+      "menuItemId": "food-013",
+      "customerName": "Nour Ahmed",
+      "rating": 4,
+      "comment": "Really tasty and well packed.",
+      "createdAt": "2026-10-18T17:00:00Z"
+    },
+    {
+      "id": "review-005",
+      "menuItemId": "food-017",
+      "customerName": "Ahmed Fathy",
+      "rating": 5,
+      "comment": "Perfect portion size.",
+      "createdAt": "2026-10-19T17:00:00Z"
+    },
+    {
+      "id": "review-006",
+      "menuItemId": "food-021",
+      "customerName": "Farida Mahmoud",
+      "rating": 5,
+      "comment": "One of my favorites.",
+      "createdAt": "2026-10-20T17:00:00Z"
+    },
+    {
+      "id": "review-007",
+      "menuItemId": "food-007",
+      "customerName": "Karim Samir",
+      "rating": 4,
+      "comment": "Good quality for the price.",
+      "createdAt": "2026-10-21T17:00:00Z"
+    },
+    {
+      "id": "review-008",
+      "menuItemId": "food-010",
+      "customerName": "Salma Ibrahim",
+      "rating": 5,
+      "comment": "Excellent flavor!",
+      "createdAt": "2026-10-22T17:00:00Z"
+    }
+  ],
+  "restaurant": {
+    "id": "restaurant-1",
+    "name": "Saffron & Stone",
+    "tagline": "Fresh flavors. Good moments.",
+    "description": "A modern casual dining restaurant offering handcrafted comfort food.",
+    "currency": "EGP",
+    "deliveryFee": 30,
+    "phone": "01000000000",
+    "email": "hello@saffronstone.example",
+    "address": "Cairo, Egypt",
+    "openingTime": "11:00",
+    "closingTime": "23:00",
+    "heroImageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=80",
+    "logoUrl": "",
+    "accentColor": "#CC6B49"
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
